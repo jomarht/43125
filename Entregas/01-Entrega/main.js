@@ -25,6 +25,7 @@ function cotizarProductos() {
     }
   
     // Mostrar el resultado en un alert
+    // toFixed(2) para mostrar dos decimales
     alert(`El precio total de los productos es: $${precioTotal.toFixed(2)}`);
   }
   
